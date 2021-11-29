@@ -8,24 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		86F4B8C427544B2500FC378D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8C327544B2500FC378D /* AppDelegate.swift */; };
-		86F4B8C627544B2500FC378D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8C527544B2500FC378D /* SceneDelegate.swift */; };
 		86F4B8C827544B2500FC378D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8C727544B2500FC378D /* ViewController.swift */; };
-		86F4B8CB27544B2500FC378D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8C927544B2500FC378D /* Main.storyboard */; };
 		86F4B8CD27544B2600FC378D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8CC27544B2600FC378D /* Assets.xcassets */; };
 		86F4B8D027544B2600FC378D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8CE27544B2600FC378D /* LaunchScreen.storyboard */; };
 		86F4B8D827544B3600FC378D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8D727544B3600FC378D /* .gitignore */; };
+		86F4B8DB27544DF800FC378D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8DA27544DF800FC378D /* Router.swift */; };
+		86F4B8E027544FA900FC378D /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8DF27544FA900FC378D /* First.storyboard */; };
+		86F4B8E227544FC400FC378D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8E127544FC400FC378D /* FirstViewController.swift */; };
+		86F4B8E5275450AF00FC378D /* Storyboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8E4275450AF00FC378D /* Storyboard+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86F4B8C027544B2500FC378D /* RouterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4B8C327544B2500FC378D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86F4B8C527544B2500FC378D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86F4B8C727544B2500FC378D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86F4B8CA27544B2500FC378D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86F4B8CC27544B2600FC378D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F4B8CF27544B2600FC378D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F4B8D127544B2600FC378D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86F4B8D727544B3600FC378D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		86F4B8D927544B7300FC378D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		86F4B8DA27544DF800FC378D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		86F4B8DF27544FA900FC378D /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		86F4B8E127544FC400FC378D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		86F4B8E4275450AF00FC378D /* Storyboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 		86F4B8B727544B2500FC378D = {
 			isa = PBXGroup;
 			children = (
+				86F4B8D927544B7300FC378D /* README.md */,
 				86F4B8D727544B3600FC378D /* .gitignore */,
 				86F4B8C227544B2500FC378D /* RouterSample */,
 				86F4B8C127544B2500FC378D /* Products */,
@@ -59,15 +65,49 @@
 		86F4B8C227544B2500FC378D /* RouterSample */ = {
 			isa = PBXGroup;
 			children = (
+				86F4B8E32754509F00FC378D /* Extension */,
+				86F4B8DC27544F5700FC378D /* View */,
 				86F4B8C327544B2500FC378D /* AppDelegate.swift */,
-				86F4B8C527544B2500FC378D /* SceneDelegate.swift */,
+				86F4B8DA27544DF800FC378D /* Router.swift */,
 				86F4B8C727544B2500FC378D /* ViewController.swift */,
-				86F4B8C927544B2500FC378D /* Main.storyboard */,
 				86F4B8CC27544B2600FC378D /* Assets.xcassets */,
 				86F4B8CE27544B2600FC378D /* LaunchScreen.storyboard */,
 				86F4B8D127544B2600FC378D /* Info.plist */,
 			);
 			path = RouterSample;
+			sourceTree = "<group>";
+		};
+		86F4B8DC27544F5700FC378D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86F4B8DE27544F6000FC378D /* Second */,
+				86F4B8DD27544F5D00FC378D /* First */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86F4B8DD27544F5D00FC378D /* First */ = {
+			isa = PBXGroup;
+			children = (
+				86F4B8DF27544FA900FC378D /* First.storyboard */,
+				86F4B8E127544FC400FC378D /* FirstViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		86F4B8DE27544F6000FC378D /* Second */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		86F4B8E32754509F00FC378D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86F4B8E4275450AF00FC378D /* Storyboard+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +171,7 @@
 				86F4B8D827544B3600FC378D /* .gitignore in Resources */,
 				86F4B8D027544B2600FC378D /* LaunchScreen.storyboard in Resources */,
 				86F4B8CD27544B2600FC378D /* Assets.xcassets in Resources */,
-				86F4B8CB27544B2500FC378D /* Main.storyboard in Resources */,
+				86F4B8E027544FA900FC378D /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,22 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F4B8C827544B2500FC378D /* ViewController.swift in Sources */,
+				86F4B8DB27544DF800FC378D /* Router.swift in Sources */,
 				86F4B8C427544B2500FC378D /* AppDelegate.swift in Sources */,
-				86F4B8C627544B2500FC378D /* SceneDelegate.swift in Sources */,
+				86F4B8E5275450AF00FC378D /* Storyboard+.swift in Sources */,
+				86F4B8E227544FC400FC378D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		86F4B8C927544B2500FC378D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86F4B8CA27544B2500FC378D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		86F4B8CE27544B2600FC378D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +332,7 @@
 				INFOPLIST_FILE = RouterSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +360,7 @@
 				INFOPLIST_FILE = RouterSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
