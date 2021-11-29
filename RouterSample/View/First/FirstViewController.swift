@@ -9,4 +9,9 @@ import UIKit
 
 final class FirstViewController:UIViewController {
     
+    @IBAction func tapButton(_ sender: Any) {
+        let vc = SecondViewController()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
+    }
 }
