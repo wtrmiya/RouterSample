@@ -8,10 +8,10 @@
 import UIKit
 extension UIStoryboard {
     static var firstViewController:FirstViewController {
-        if let vc = UIStoryboard.init(name: "First", bundle: nil).instantiateInitialViewController() as? FirstViewController
-        {
-            return vc
+        guard let vc = UIStoryboard.init(name: "First", bundle: nil).instantiateInitialViewController() as? FirstViewController
+        else {
+            return FirstViewController()
         }
-        return FirstViewController()
+        return vc
     }
 }

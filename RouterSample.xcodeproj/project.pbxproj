@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		86F4B8C427544B2500FC378D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8C327544B2500FC378D /* AppDelegate.swift */; };
-		86F4B8C827544B2500FC378D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8C727544B2500FC378D /* ViewController.swift */; };
 		86F4B8CD27544B2600FC378D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8CC27544B2600FC378D /* Assets.xcassets */; };
 		86F4B8D027544B2600FC378D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8CE27544B2600FC378D /* LaunchScreen.storyboard */; };
 		86F4B8D827544B3600FC378D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8D727544B3600FC378D /* .gitignore */; };
@@ -16,12 +15,12 @@
 		86F4B8E027544FA900FC378D /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4B8DF27544FA900FC378D /* First.storyboard */; };
 		86F4B8E227544FC400FC378D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8E127544FC400FC378D /* FirstViewController.swift */; };
 		86F4B8E5275450AF00FC378D /* Storyboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8E4275450AF00FC378D /* Storyboard+.swift */; };
+		86F4B8E72754543200FC378D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4B8E62754543200FC378D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86F4B8C027544B2500FC378D /* RouterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4B8C327544B2500FC378D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86F4B8C727544B2500FC378D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86F4B8CC27544B2600FC378D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F4B8CF27544B2600FC378D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F4B8D127544B2600FC378D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +30,7 @@
 		86F4B8DF27544FA900FC378D /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 		86F4B8E127544FC400FC378D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		86F4B8E4275450AF00FC378D /* Storyboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+.swift"; sourceTree = "<group>"; };
+		86F4B8E62754543200FC378D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 				86F4B8DC27544F5700FC378D /* View */,
 				86F4B8C327544B2500FC378D /* AppDelegate.swift */,
 				86F4B8DA27544DF800FC378D /* Router.swift */,
-				86F4B8C727544B2500FC378D /* ViewController.swift */,
 				86F4B8CC27544B2600FC378D /* Assets.xcassets */,
 				86F4B8CE27544B2600FC378D /* LaunchScreen.storyboard */,
 				86F4B8D127544B2600FC378D /* Info.plist */,
@@ -98,6 +97,7 @@
 		86F4B8DE27544F6000FC378D /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				86F4B8E62754543200FC378D /* SecondViewController.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F4B8C827544B2500FC378D /* ViewController.swift in Sources */,
+				86F4B8E72754543200FC378D /* SecondViewController.swift in Sources */,
 				86F4B8DB27544DF800FC378D /* Router.swift in Sources */,
 				86F4B8C427544B2500FC378D /* AppDelegate.swift in Sources */,
 				86F4B8E5275450AF00FC378D /* Storyboard+.swift in Sources */,
