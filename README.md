@@ -3,21 +3,8 @@
 ## Overview
 アプリ起動時に複数の画面のうち一つをランダムに表示する。
 
-## Description
-
-## Demo
-
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
+・First: Storyboardで実装
+・Second: コードで実装
 
 ## Author
 
